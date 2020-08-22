@@ -44,9 +44,12 @@
 	index.hotArrowsMove();
 	index.gameNavMove();
 	index.gameArrowsMove();
-
-	shoplist.downShops();
-	shoplist.hoverShops();
-	shoplist.hoverLeaveShops();
+	index.shopBannerTab();
+	
+	shoplist.shopTabOne();
+	// shoplist.downShops();
+	// shoplist.hoverShops();
+	// shoplist.hoverLeaveShops();
+	shoplist.shopTab();
 	});
 	

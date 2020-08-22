@@ -91,6 +91,19 @@ define(["jquery"],function($){
 			})	
 		}
 
+		// 周边商城 banner切换
+		function shopBannerTab(){
+			$('.part3-top-tab-u').on('click', 'li', function(){
+				var index = $(this).index();
+				$('.shop-list1-banner').css('display','none');
+				$('.shop-list1-banner').eq(index)
+				.css({
+					display:'block',
+					"z-index":3
+				});					
+			})
+		}
+
 	return{
 		newsTab:newsTab,
 		arrowsMove:arrowsMove,
@@ -99,6 +112,7 @@ define(["jquery"],function($){
 		hotArrowsMove:hotArrowsMove,
 		gameNavMove:gameNavMove,
 		gameArrowsMove:gameArrowsMove,
+		shopBannerTab:shopBannerTab,
 	}
 
 });
