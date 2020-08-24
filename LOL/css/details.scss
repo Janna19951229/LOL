@@ -1,0 +1,850 @@
+
+// 头部
+.wrap{
+    padding: 0px;
+    margin: 0px;
+    // 顶部
+    .topbar{
+        height: 120px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        overflow: hidden;
+        zoom: 1;
+        min-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        .lor_top{
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            min-width: 1280px;
+            width: 100%;
+            height: 75px;
+            overflow: 9999;
+            background: #090909;
+            // background-color: orange;
+            .lor_topLogo{
+                margin: 19px 0 0 50px;
+                width: 297px;
+                height: 39px;
+                position: relative;
+                float: left;
+                // background-color: orange;
+                display: inline;
+                a{
+                    background-color: pink;
+                    // position: absolute;
+                    // left: 0;
+                    // top: 0;
+                    display: block;
+                    width: 297px;
+                    height: 39px;
+                    z-index: 1;
+                    background: url(../images/shopico.png) no-repeat;
+                    background-position: -2px -147px;
+                }
+            }
+        }
+        .lor_top_right{
+            float: right;
+            display: inline;
+            margin: 22px 25px 0 0;
+            height: 38px;
+            line-height: 30px;
+            color: #a1a1a1;
+            position: relative;
+            font-size: 14px;
+            z-index: 1; 
+            .login_bar{
+                float: right;
+                display: inline;
+                margin: 22px 25px 0 0;
+                height: 38px;
+                line-height: 30px;
+                color: #a1a1a1;
+                position: relative;
+                font-size: 14px;
+                z-index: 1   ;
+                .loginqq{
+                    cursor: pointer;
+                    display: block;
+                    color: #a1a1a1;
+                    float: left;
+                    padding-right: 20px;
+                    position: relative;
+                    z-index: 3;
+                }  
+                // 购物车
+                .menu-cart{
+                    cursor: pointer;
+                    color: #a1a1a1;
+                    float: left;
+                    padding-right: 20px;
+                    display: block;
+                    width: 150px;
+                    position: relative;
+                    z-index: 2;  
+                    i{
+                        margin: 3px 4px 0 0;
+                        display: block;
+                        width: 28px;
+                        height: 25px;
+                        background: url(../images/shopico.png) no-repeat -2px -13px;                   
+                    }   
+                    .mtxt{
+                        position: relative;
+                        left: 38px;
+                        top: -26px;
+                        display: block;
+                        float: left;
+                        padding-right: 6px; 
+                        line-height: 30px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        color: #a1a1a1;                
+                    }  
+                    .num{
+                        display: block;
+                        position: relative;
+                        left: 87px;
+                        top: -20px;
+                        color: #fff;
+                        width: 20px;
+                        height: 20px;
+                        background: url(../images/shopico.png) no-repeat -2px -287px;
+                    }   
+                    em{
+                        display: block;
+                        color: #fff;
+                        position: relative;
+                        left: 82px;
+                        top: -55px;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                    }   
+                } 
+                .lingqu{
+                    cursor: pointer;
+                    color: #a1a1a1;
+                    float: right;
+                    padding-right: 20px;
+                    display: block;
+                    position: relative;
+                    left: 41px;
+                    z-index: 2;
+                    i{
+                        position: relative;
+                        left: -157px;
+                        top: 0;
+                        margin: 5px 4px 0 0;
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        background: url(../images/shopico.png) no-repeat -36px -385px;
+                    }
+                    span{
+                        position: relative;
+                        left: -125px;
+                         top: -23px;
+                    }
+
+                } 
+                .weixin{
+                    padding-right: 28px;
+                    height: auto;
+                    position: relative;
+                    left: 53px;
+                    cursor: pointer;  
+                    float: right;
+                    display: inline; 
+                    i{
+                        position: relative;
+                        left: 21px;
+                        top: 2px;
+                        margin: 5px 4px 0 0;
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        background: url(../images/shopico.png) no-repeat -2px -42px;
+                    }     
+                    span{
+                        position: relative;
+                        left: 50px;
+                        top: -23px;
+                    }        
+                }
+            }
+        }
+        // 头部导航
+        .menu_bar{
+            position: fixed;
+            top: 75px;
+            left: 0;
+            z-index: -1;
+            margin: 0 auto;
+            min-width: 1240px;
+            width: 100%;
+            height: 45px;
+            background: #202020;
+            .blk_nav{
+                margin: 0 20px;
+                line-height: 45px;
+                height: 45px;
+                color: #fff;
+                font-size: 14px;
+                float: left;
+                display: inline;
+                li{
+                    float: left;
+                    padding: 0;
+                    position: relative;
+                    width: 122px;
+                    text-align: center;
+                    a{
+                        display: block;
+                        width: 100%;
+                        height: 45px;
+                        padding: 0;
+                        color: #fff;
+                        font-size: 18px;                    
+                    }
+                    .hot{
+                        position: absolute;
+                        top: 16px;
+                        right: -6px;
+                        z-index: 2;
+                        width: 28px;
+                        height: 14px;
+                        display: block;
+                        background: url(../images/shophot.png);
+                    }
+                    .new{
+                        position: absolute;
+                        top: 16px;
+                        right: -6px;
+                        z-index: 2;
+                        width: 28px;
+                        height: 14px;
+                        display: block;
+                        background: url(../images/shopnew.png)
+                    }
+                    .submenu1{
+                        position: absolute;
+                        top: 45px;
+                        left: -23px;
+                        z-index: 100;
+                        width: 188px;
+                        min-height: 120px;
+                        height: auto;
+                        background: #181a20;
+                        border-top: 3px solid #f94915;
+                        overflow: hidden;
+                        display: none;
+                        ul{
+                            padding: 12px 0 10px 15px;
+                            width: 85px;
+                            height: auto;
+                            overflow: hidden; 
+                            float: left;
+                            //  display: inline; 
+                            li{
+                                padding: 0;
+                                width: 100%;
+                                height: 24px;
+                                line-height: 24px;
+                                text-align: left;
+                                a{
+                                    display: block;
+                                    width: 100%;
+                                    height: 45px;
+                                    padding: 0;
+                                    color: #fff;
+                                    font-size: 14px; 
+
+                                }
+                            }  
+                            li a:hover{
+                                color: orangered;
+                            }                
+                        }
+                        .submenu1-pic{
+                            position: absolute;
+                            top: 50%;
+                            right: 16px;
+                            margin-top: -40.5px;
+                            width: 81px;
+                            height: 81px;
+                            overflow: hidden;
+                            display: block;
+                            img{
+                                width: 81px;
+                                height: 81px;
+                                background: none;
+                            }
+                        }
+                    }
+                }
+             
+                li:hover .submenu1{
+                    display: block;
+                }
+                li:hover a{
+                    color: orangered;
+                }
+            }
+        }
+
+    }
+}
+
+//  内容
+.main{
+    height: auto;
+    padding-top: 120px;
+    min-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    .breadcrumb{
+        border-bottom: 1px solid #d7d7d7;
+        min-width: 1240px;
+        width: 100%;
+        height: 62px;
+        line-height: 62px;
+        text-align: left;
+        a{
+            color: #4b4b4b;
+            font-size: 16px;
+            display: inline;
+            width: auto;
+            margin-left: 50px;
+        }
+        i{
+            position: absolute;
+            margin: 27px 15px 0 22px;
+            display: inline;
+            width: 7px;
+            height: 10px;  
+            float: left;
+            background: url(../images/shopico.png) no-repeat -111px 0;    
+        }
+    }
+
+    .main_bar{
+        height: auto;
+        padding-top: 16px;
+        position: relative; 
+        background: #FFF;
+        width: 1180px;
+        margin: 0 auto;
+        .details_bar{
+            font-size: 16px;
+            min-height: 540px;
+            height: auto;
+            width: 1180px;
+            padding-bottom: 26px;   
+            .details{
+                width: 629px;
+                // height: 620px;
+                position: relative;
+                z-index: 3; 
+                float: left;
+                display: inline;   
+                .goods_pic{
+                    border: 1px solid #ccc;
+                    margin-left: 90px;
+                    width: 460px;
+                    height: 460px;
+                    padding: 18px 0px 0px 0px;
+                    position: relative;
+                    right: 0;
+                    a{
+                        width: 460px;
+                        height: 440px;
+                        display: block;
+                        margin: 0px auto;
+                    }
+                    img{
+                        width: 460px;
+                        height: 440px;
+                        display: block;
+                        margin: 0px auto;
+                    }
+                } 
+                .more_view{
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 340px;
+                    overflow: hidden;
+                    position: absolute; 
+                    top: 0;
+                    left: 0;  
+                    z-index: 10;
+                    ul{
+                        top: 0;
+                        position: relative;
+                        li{
+                            float: left;
+                            padding: 6px 0;
+                        }
+                    }          
+                }   
+            }
+            .details_right{
+                float: right;
+                display: inline;
+                .details_box{
+                    width: 550px;
+                    float: right;
+                    font-family: "微软雅黑","宋体";
+                    margin-right: 0px;
+                    .top{
+                        min-height: 52px;
+                        height: auto;
+                        width: 562px;
+                        padding-left: 0px;
+                        padding-top: 14px; 
+                        h3{
+                            min-height: 42px;
+                            height: auto;
+                            padding-top: 10px;
+                            line-height: 42px;
+                            font-size: 30px;
+                            display: block;
+                            float: left;
+                            color: black;
+                        }                   
+                    }
+                   .price{
+                        border-bottom: 1px #efefef solid;
+                        border-top: 1px #efefef solid;
+                        height: 50px;
+                        width: 100%;
+                        margin-top: 40px;
+                        line-height: 50px;
+                        .left{
+                            width: auto;
+                            color: #3d4145;
+                            text-indent: 0px;
+                            text-align: right;
+                            padding-right: 12px;
+                            padding-bottom: 6px;                        
+                        }
+                        .right{
+                            color: #303030;
+                            font-size: 30px;
+                            font-weight: bold;
+                            line-height: 50px;
+                            height: 24px;
+                            margin-right: 2px;                     
+                        }
+                   }
+                   .xiaoliang{
+                    height: 54px;
+                    line-height: 54px;
+                    border-bottom: 1px #efefef solid;
+                    color: #3d4145;
+                   }
+                   .guige{
+                       display: block;
+                        padding-top: 12px;
+                        width: 100%;
+                        position: relative;
+                        height: 60px;
+                        .left{
+                            float: left;
+                            width: auto;
+                            color: #3d4145;
+                            text-indent: 0px;
+                            text-align: right;
+                            padding-right: 12px;
+                            padding-bottom: 6px; 
+                                            
+                        }
+                        .right{
+                            float: left;
+                            padding: 0px;
+                            text-align: center;
+                            line-height: 30px;
+                            margin-right: 14px;
+                            margin-bottom: 10px;
+                            width: 50px;
+                            height: 30px;
+                            color: red;
+                            border: 1px solid red;
+                        }
+                       
+                   }
+                   .shopCar{
+                    // display: block;
+                    // height: 60px;
+                    .num{
+                        position: relative;
+                        padding-top: 12px;
+                        width: 100%;
+                        
+                        .add,.subtract{
+                            cursor: pointer;
+                        }
+                        // height: 60px;  
+                        .shuliang{
+                           position: absolute;
+                           left: 0;
+                           top: 9px;
+                        }
+                        .left{
+                            position: absolute;
+                            left: 58px;
+                           top: 0;
+                            width: 20px;
+                            height: 34px;
+                            border: 1px solid #dcdcdc;
+                            text-align: center;
+                            line-height: 34px;                            
+                        }
+                        .center{
+                            position: absolute;
+                            left: 80px;
+                            top: 0;
+                            width: 28px;
+                            height: 34px;
+                            line-height: 36px;
+                            float: left;
+                            text-align: center;
+                            color: #3d4145;
+                            display: block;
+                            font-size: 14px; 
+                            border-top:1px solid #dcdcdc ;   
+                            border-bottom: 1px solid #dcdcdc ;                            
+                        }
+                        .right{
+                            position: absolute;
+                            left: 108px;
+                           top: 0;
+                            width: 20px;
+                            height: 34px;
+                            border: 1px solid #dcdcdc;
+                            text-align: center;
+                            line-height: 34px;                              
+                        }
+                        .sheng{
+                            position: absolute;
+                            left: 152px;
+                           top: 0;
+                            height: 36px;
+                            line-height: 29px;
+                            float: left;
+                            color: #3d4145;
+                            display: block;
+                            font-size: 14px; 
+                            padding-left: 5px;
+                            padding-top: 5px;
+                            strong{
+                                color: #f94915;
+                            }                               
+                        }
+
+                    }
+                    .car{
+                        margin-top: 35px;
+                        padding-top: 15px;
+                        width: 100%;
+                        position: relative;
+                        border-top: 1px #efefef solid;
+                        height: 70px;
+                        border-bottom: 1px #efefef solid;
+                        .car_left{
+                            float: left;
+                            color: #3d4145;
+                            display: block;
+                            font-size: 14px;
+                            a{
+                                width: 158px;
+                                height: 48px;
+                                line-height: 48px;
+                                color: #FFF;
+                                display: block;
+                                background: #ed3029;
+                                font-size: 18px;
+                                text-align: center;
+                            }
+                        }
+                        .car_right{
+                            margin-left: 15px;
+                            cursor: pointer;
+                            float: left;
+                            color: #3d4145;
+                            display: block;
+                            font-size: 14px;
+                            padding-left: 10px;
+                            width: 133px;
+                                padding-left: 35px;
+                                height: 48px;
+                                line-height: 48px;
+                                color: #FFF;
+                                display: block;
+                                background: #00a989;
+                                font-size: 18px;
+                                text-align: center;
+                                position: relative;
+                                span{
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 39px;
+                                    height: 48px;
+                                    background: #018d73;  
+                                    float: left;
+                                    color: #3d4145;
+                                    display: block;
+                                    font-size: 14px;
+                                    i{
+                                        position: absolute;
+                                        top: 15px;
+                                        left: 10px;
+                                        z-index: 1;
+                                        width: 19px;
+                                        height: 15px;
+                                        background: url(../images/detailts.png) no-repeat -2px -104px;
+                                    }                                                              
+                                } 
+                            
+                        }
+                    }
+                    .details_bottom{
+                        padding-top: 12px;
+                        width: 100%;
+                        position: relative;     
+                        ul{
+                            width: 100%;
+                            height: 45px;
+                            line-height: 45px; 
+                            li{
+                                float: left;
+                                height: 25px;
+                                line-height: 25px;
+                                width: 33.33%;
+                                font-size: 14px;
+                                color: #3d4145;
+                                span{
+                                    margin: 4px 3px 0 0;
+                                    display: block;
+                                    width: 17px;
+                                    height: 16px;
+                                    float: left;  
+                                    background: url(../images/detailts.png) no-repeat -2px -2px;                              
+                                }
+                                a{
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                    color: #000;                                
+                                }
+                            } 
+                            .guan{
+                                width: 17px;
+                                height: 16px;
+                                background: url(../images/detailts.png) no-repeat -2px -22px;
+                            }  
+                            .you{
+                                width: 17px;
+                                height: 16px;
+                                background: url(../images/detailts.png) no-repeat -2px -42px;
+                            }                  
+                        }            
+                    }
+                }
+                }   
+                
+            }
+        }
+    }
+    #details_top{
+        width: 100%;
+        height: 47px;
+        border-top: 1px solid #d7d7d7;
+        border-bottom: 1px solid #d7d7d7;
+        border-right: 1px solid #d7d7d7;
+        ul{
+            line-height: 47px;
+            height: 47px;
+            border-left: 1px solid #c8c8c8;
+            float: left;
+            // display: inline;  
+            border-right: 0px solid #c8c8c8; 
+            li{
+                background: #fff;
+                padding: 0px 50px;
+                font-size: 14px;
+                // color: #fff;
+                border-right: 1px solid #c8c8c8;
+                float: left;
+                cursor: pointer;
+            }  
+        }    
+    }
+    #details_box{
+        padding-top: 35px;
+        border: 1px solid #d7d7d7;
+        border-top: none;
+        width: 1180px;
+        margin: 0 auto;
+        height: auto;   
+        .details_main{
+            width: 1158px;
+            padding: 20px 150px;
+            height: auto;
+            line-height: 26px;      
+        }
+    }
+}
+
+// 底部
+.bottom{
+	min-width: 1280px;
+	height: 500px;
+	// background-color: pink;
+	.bottomShop{
+		position: relative;
+		width: 1190px;
+		height: 402px;
+		margin: 0px auto;	
+		// background-color: orange;
+		.serverBar{
+			padding-top: 28px;
+			background: #fff;
+			height: 70px;
+			width: 1190px;
+			margin: 0px auto;
+			ul{
+				padding-left: 110px;
+				width: 940px;
+				margin: 0px auto;
+				li{
+					float: left;
+					.fw1{
+						display: block;
+						width: 42px;
+						height: 52px;
+						float: left;
+						background:url(../images/shopcion.png) no-repeat -10px -234px ;				
+					}
+					.fw2{
+						display: block;
+						width: 42px;
+						height: 52px;
+						float: left;
+						background:url(../images/shopcion.png) no-repeat -73px -234px ;						
+					}
+					.fw3{
+						display: block;
+						width: 42px;
+						height: 52px;
+						float: left;
+						background:url(../images/shopcion.png) no-repeat -179px -234px ;						
+					}
+					a{
+						width: 240px;
+						display: block;
+						line-height: 52px;
+						height: 52px;
+						float: left;
+						color: #222;
+						font-size: 14px;
+						cursor: default;					
+					}
+				}
+			}
+		}
+		.shopHelp{
+			position: absolute;
+			left: -346px;
+			top: 105px;
+			width: 1870px;
+			margin: 0px auto;
+			height: auto;
+			min-height: 200px;
+			background-color: #e9e9e9;
+			ul{
+				padding-left: 350px;
+				margin-top: 20px;
+				color: #666;
+				li{
+					width: 266px;
+					height: 166px;
+					float: left;
+					padding-top: 4px;
+					padding-left: 16px;
+					h3{
+						color: #000;
+						display: block;
+						line-height: 30px;
+						font-size: 16px;
+						// color: #d6d6d6;
+						font-weight: normal;					
+					}
+					a{
+						text-indent: 10px;
+						font-size: 12px;
+						color: #666;
+						display: block;
+						line-height: 28px;
+					}
+				}			
+			}
+
+		}
+		.bottomLink{
+			position: absolute;
+			top: 340px;
+			left: -47px;
+			border-top: 1px solid #e9e9e9;
+			border-bottom: 1px solid #e9e9e9;
+			margin-top: 25px;
+			text-align: center;
+			width: 1190px;
+			margin: 0px auto;
+			height: auto;		
+			a{
+				color: #666;
+				padding-right: 20px;
+    			line-height: 40px
+			}	
+		}
+		.foot{
+			position: absolute;
+			top: 400px;
+    		left: 127px;
+			width: 855px;
+			height: auto;
+			margin: 20px auto 20px;
+			line-height: 20px;	
+			.foot-logo{
+				background: url(../images/shopcion.png) no-repeat -10px -290px;
+   			 	width: 246px;
+    			height: 46px;
+				border-right: #e9e9e9 solid 1px;
+			}	
+			.copyright{
+				position: absolute;
+				left: 249px;
+				top: 0;
+				width: 470px;
+				height: 40px;
+				margin: 4px 0 0 16px;
+				color: #666;			
+			}
+			a{
+				position: absolute;
+				left: 741px;
+				top: 0;
+				display: block;
+				width: 117px;
+				height: 50px;
+				background: url(../images/copy.png) no-repeat;			
+			}
+		}
+	}
+}                       

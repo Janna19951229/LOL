@@ -4,39 +4,68 @@
 	
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202008/20200817164740_71972.big.jpg", 
 	"content":"武神降临 贾克斯 手办套装", 
-	"price":"￥268.00"
+	"price":"￥268.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?0",
+	"id":0
+	
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202007/20200723141827_20043.big.jpg", 
 	"content":"灵魂莲花 瑞文手办", 
-	"price":"￥150.00"
+	"price":"￥150.00",
+	"residue":"23",
+	"url":"http://localhost:8888/pages/details.html?1",
+	"id":1
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190918215254_83346.big.jpg", 
 	"content":"星之守护者 索拉卡手办", 
-	"price":"￥150.00"
+	"price":"￥150.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?2",
+	"id":2
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201903/20190322190040_77746.big.jpg", 
 	"content":"送披萨的小姐姐 希维尔手办", 
-	"price":"￥150.00"
+	"price":"￥150.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?3",
+	"id":3
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201902/20190214235825_97137.big.jpg", 
 	"content":"盲僧李青 中型手办", 
-	"price":"￥430.00"
+	"price":"￥430.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?4",
+	"id":4
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126095404_18708.big.jpg", 
 	"content":"莫甘娜手办", 
-	"price":"￥150.00"
+	"price":"￥150.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?5",
+	"id":5
+	
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201811/20181108182653_81038.big.jpg", 
 	"content":"暮光星灵 佐伊手办", 
-	"price":"￥199.00"
+	"price":"￥199.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?6",
+	"id":6
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201906/20190604183958_96638.big.jpg", 
 	"content":"灌篮高手 德莱厄斯手办", 
-	"price":"￥199.00"
+	"price":"￥199.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?7",
+	"id":7
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201811/20181102214134_92365.big.jpg", 
 	"content":"K/DA 阿狸手办", 
-	"price":"￥150.00"
+	"price":"￥150.00",
+	"residue":"库存充足",
+	"url":"http://localhost:8888/pages/details.html?8",
+	"id":8
 }
 	
 	

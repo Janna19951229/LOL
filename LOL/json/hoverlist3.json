@@ -4,39 +4,57 @@
 	
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202007/20200723144033_15848.big.jpg", 
 	"content":"灵魂莲花 阿狸鼠标垫(加长版）", 
-	"price":"￥98.00"
+	"price":"￥98.00",
+	"url":"http://localhost:8888/pages/details.html?30",
+	"id":30
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202007/20200722223603_83495.big.jpg", 
 	"content":"灵魂莲花 卡西奥佩娅 折扇", 
-	"price":"￥69.00"
+	"price":"￥69.00",
+	"url":"http://localhost:8888/pages/details.html?31",
+	"id":31
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202006/20200612212853_31102.big.jpg", 
 	"content":"金铲铲 钥匙链", 
-	"price":"￥49.00"
+	"price":"￥49.00",
+	"url":"http://localhost:8888/pages/details.html?32",
+	"id":32
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202006/20200618150317_73916.big.jpg", 
 	"content":"标准珍藏版设定套装", 
-	"price":"￥1750"
+	"price":"￥1750",
+	"url":"http://localhost:8888/pages/details.html?33",
+	"id":33
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201905/20190509225949_50533.big.jpg", 
 	"content":"唯爱 18K金镶钻手链", 
-	"price":"￥2020.00"
+	"price":"￥2020.00",
+	"url":"http://localhost:8888/pages/details.html?34",
+	"id":34
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191209213705_91433.big.jpg", 
 	"content":"魄罗徽章套装", 
-	"price":"￥108.00"
+	"price":"￥108.00",
+	"url":"http://localhost:8888/pages/details.html?35",
+	"id":35
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201901/20190114204832_28780.big.jpg", 
 	"content":"飞龙在天 盲僧膳魔师保温杯", 
-	"price":"￥199.00"
+	"price":"￥199.00",
+	"url":"http://localhost:8888/pages/details.html?36",
+	"id":36
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201805/20180509105805_64775.big.jpg", 
 	"content":"阿狸 手机壳", 
-	"price":"￥128.00"
+	"price":"￥128.00",
+	"url":"http://localhost:8888/pages/details.html?37",
+	"id":37
 },
 {   "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181210101647_95442.big.jpg", 
 	"content":"Dab舞 企鹅马克杯", 
-	"price":"￥88.00"
+	"price":"￥88.00",
+	"url":"http://localhost:8888/pages/details.html?38",
+	"id":38
 }
 	
 	

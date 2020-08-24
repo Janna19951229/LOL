@@ -1,0 +1,36 @@
+[
+    {   
+    
+        "id":0,
+        "title":"武神降临 贾克斯 手办套装",
+        "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202008/20200817164110_14581.big.jpg",
+        "price":"￥268.00",
+        "residue":"库存充足",
+        "url":"http://localhost:8888/pages/details.html?0"
+        
+    
+    
+    },
+    {   
+    
+        "id":1,
+        "title":"灵魂莲花瑞文手办",
+        "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202007/20200723141827_20043.big.jpg",
+        "price":"￥150.00",
+        "residue":"23",
+        "url":"http://localhost:8888/pages/details.html?1"
+    
+    
+    },  
+    {   
+
+        "id":2,
+        "title":"星之守护者索拉卡手办",
+        "img":"https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190918215254_83346.big.jpg",
+        "price":"￥150.00",
+        "residue":"库存充足",
+        "url":"http://localhost:8888/pages/details.html?2"
+
+
+    }
+]

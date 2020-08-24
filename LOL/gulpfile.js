@@ -43,13 +43,58 @@
 		return gulp
 		.src('css/index.scss')
 		.pipe(scss())
-		.pipe(gulp.dest('dist/css'))
+		// .pipe(gulp.dest('dist/css'))
 		.pipe(minifycss())
 		.pipe(rename('index.min.css'))  // 每一个scss文件，都要重新编写一个文件命名
 		.pipe(gulp.dest('dist/css'))
 		.pipe(connect.reload());
 	});
-	
+	// 购物首页界面css
+	gulp.task('shopsIndexcss',function(){
+		return gulp
+		.src('css/shopindex.scss')
+		.pipe(scss())
+		// .pipe(gulp.dest('dist/css'))
+		.pipe(minifycss())
+		.pipe(rename('shopindexmin.css'))  // 每一个scss文件，都要重新编写一个文件命名
+		.pipe(gulp.dest('dist/css'))
+		.pipe(connect.reload());
+	});
+		// 购物分页css
+		gulp.task('Figurinecss',function(){
+			return gulp
+			.src('css/Figurine.scss')
+			.pipe(scss())
+			// .pipe(gulp.dest('dist/css'))
+			.pipe(minifycss())
+			.pipe(rename('Figurinemin.css'))  // 每一个scss文件，都要重新编写一个文件命名
+			.pipe(gulp.dest('dist/css'))
+			.pipe(connect.reload());
+		});
+
+		// 购物详情页
+		gulp.task('details',function(){
+			return gulp
+			.src('css/details.scss')
+			.pipe(scss())
+			// .pipe(gulp.dest('dist/css'))
+			.pipe(minifycss())
+			.pipe(rename('detailsmin.css'))  // 每一个scss文件，都要重新编写一个文件命名
+			.pipe(gulp.dest('dist/css'))
+			.pipe(connect.reload());
+		});
+
+			// 购物车
+			gulp.task('shopCar',function(){
+				return gulp
+				.src('css/shopCar.scss')
+				.pipe(scss())
+				// .pipe(gulp.dest('dist/css'))
+				.pipe(minifycss())
+				.pipe(rename('shopCarmin.css'))  // 每一个scss文件，都要重新编写一个文件命名
+				.pipe(gulp.dest('dist/css'))
+				.pipe(connect.reload());
+			});
 // (3) 处理js
 	gulp.task('scripts',function(){
 		return gulp
@@ -84,6 +129,10 @@
 		gulp.watch('images/**/*',['images']);
 		gulp.watch('json/*.json',['data']);
 		gulp.watch('js/*.js',['scripts']);
+		gulp.watch('css/shopindex.scss',['shopsIndexcss']);
+		gulp.watch('css/Figurine.scss',['Figurinecss']);
+		gulp.watch('css/details.scss',['details']);
+		gulp.watch('css/shopCar.scss',['shopCar']);
 	})
 	
 // 服务器
