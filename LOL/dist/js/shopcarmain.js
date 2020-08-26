@@ -13,7 +13,6 @@ console.log("加载成功");
             //设置依赖关系
             // 先加载jquery 再加载"jquery-cookie"
             "jquery-cookie": ["jquery"],
-
         },
         })
         
@@ -21,6 +20,6 @@ console.log("加载成功");
         //调用对应的模块
         require(["shopcar"], function(shopcar){
             
-            shopcar.test();
+            shopcar.goodsDown();
 
  });

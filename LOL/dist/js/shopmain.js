@@ -14,6 +14,7 @@ console.log("加载成功");
             //设置依赖关系
             // 先加载jquery 再加载"jquery-cookie"
             "jquery-cookie": ["jquery"],
+            
 
         },
         })
@@ -23,6 +24,7 @@ console.log("加载成功");
         require(["index"], function(index){
             
         index.shopBanner();
+        index.login();
 
         });
         

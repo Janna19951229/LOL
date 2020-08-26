@@ -22,9 +22,8 @@ console.log("加载成功");
         //调用对应的模块
         require(["details"], function(details){
             
-            details.addSubtract();
             details.detailsDown();
-            details.topCar();
+            details.zoom();
 
 
         });

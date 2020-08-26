@@ -95,6 +95,18 @@
 				.pipe(gulp.dest('dist/css'))
 				.pipe(connect.reload());
 			});
+
+			// 注册
+			gulp.task('register',function(){
+				return gulp
+				.src('css/register.css')
+				// .pipe(scss())
+				// .pipe(gulp.dest('dist/css'))
+				.pipe(minifycss())
+				.pipe(rename('registermin.css'))  // 每一个scss文件，都要重新编写一个文件命名
+				.pipe(gulp.dest('dist/css'))
+				.pipe(connect.reload());
+			});
 // (3) 处理js
 	gulp.task('scripts',function(){
 		return gulp
@@ -133,6 +145,7 @@
 		gulp.watch('css/Figurine.scss',['Figurinecss']);
 		gulp.watch('css/details.scss',['details']);
 		gulp.watch('css/shopCar.scss',['shopCar']);
+		gulp.watch('css/register.css',['register']);
 	})
 	
 // 服务器

@@ -352,14 +352,49 @@
                 position: relative;
                 z-index: 3; 
                 float: left;
-                display: inline;   
-                .goods_pic{
+                display: inline;  
+                #small{
+                    cursor: move;
+                    width: 460px;
+                    height: 460px;
                     border: 1px solid #ccc;
+                    position: relative;
+                    left: 0;
+                    top: 0;
+                    #mark{
+                        display: none;
+                        width: 150px;
+                        height: 150px;
+                        background-color: gray;
+                        opacity: 0.7;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                } 
+                #big{
+                    cursor: move;
+                    display: none;
+                    overflow: hidden;
+                    width: 450px;
+                    height: 450px;
+                    border: 1px solid #ccc;
+                    position: absolute;
+                    left: 600px;
+                    top: 30px;
+                    img{
+                        position: absolute;
+                        width: 920px;
+                        height: 920px;
+                    }
+                }
+                .goods_pic{
+                    border-bottom: 1px solid #ccc;
                     margin-left: 90px;
                     width: 460px;
                     height: 460px;
                     padding: 18px 0px 0px 0px;
-                    position: relative;
+                    position: absolute;
                     right: 0;
                     a{
                         width: 460px;
@@ -368,8 +403,8 @@
                         margin: 0px auto;
                     }
                     img{
-                        width: 460px;
-                        height: 440px;
+                        width: 100%;
+                        height: 100%;
                         display: block;
                         margin: 0px auto;
                     }

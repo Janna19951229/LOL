@@ -1,4 +1,4 @@
-define([ "jquery"], function($){
+define([ "jquery","jquery-cookie"], function($){
 
     // 3. 生活周边
     function shopTabThree(){
@@ -63,6 +63,20 @@ define([ "jquery"], function($){
                 },
             })			
         })
+
+            // 设置购物车的总数量
+            var cookieArr = JSON.parse($.cookie('goods'));
+                            
+            var sum = 0;
+
+            console.log(cookieArr.length);
+            for(let i = 0; i < cookieArr.length; i++){
+                sum += cookieArr[i].num;
+                // console.log(sum);
+
+                $('.login_bar em').html(sum);
+            }
+
     }
 
 

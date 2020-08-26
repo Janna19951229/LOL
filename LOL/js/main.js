@@ -45,6 +45,7 @@
 	index.gameNavMove();
 	index.gameArrowsMove();
 	index.shopBannerTab();
+	index.login();
 	
 	shoplist.shopTabOne();
 	// shoplist.downShops();

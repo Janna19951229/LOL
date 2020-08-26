@@ -118,11 +118,16 @@
                         background: url(../images/shopico.png) no-repeat -2px -287px;
                     }   
                     em{
+                        display: block;
                         color: #fff;
                         position: relative;
-                        left: 45px;
-                        top: -45px;
-                    }   
+                        left: 82px;
+                        top: -55px;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                    }
+                    
                 } 
                 .lingqu{
                     cursor: pointer;
@@ -302,6 +307,7 @@
     width: 1190px;
     margin: 0px auto;
     height: auto;
+    min-height: 1000px;
     padding-top: 200px;
     position: relative;
     .list_top{
@@ -330,10 +336,19 @@
             float: left;
         }
     }
+    .goods_Ubox{
+        position: relative;
+        border-bottom: 1px solid #e2e2e2;
+        width: 1080px;
+        height: auto;
+        // min-height: 1000px;
+    }
     .goods{
         position: relative;
         border-bottom: 1px solid #e2e2e2;
         width: 1080px;
+        height: auto;
+        
         .goods_li1{
             width: 60px;
             float: left;
@@ -343,7 +358,7 @@
         }
         .goods_li2{
             text-align: left;
-            width: 348px;
+            width: 359px;
             height: 106px;
             padding-top: 14px;
             img{
@@ -355,7 +370,6 @@
             }
             .li2_center{
                 height: 106px;
-                float: left;
                 display: inline;
                 span{
                     line-height: 24px;
@@ -427,6 +441,54 @@
             left: 868px;
             font-size: 16px;
             color: red;
+        }
+    }
+
+    .goods_settlement{
+        position: relative;
+        border-bottom: 1px solid #e2e2e2;
+        width: 1080px;
+        height: 50px;
+        // background-color: palegreen;
+        .left{
+            position: absolute;
+            left: 569px;
+            top: 0;
+            font-size: 15px;
+            font-weight: 700;
+            width: 100px;
+            height: 100%;
+            color: #000;
+            text-align: center;
+            line-height: 50px;
+
+        }
+        .center{
+            position: absolute;
+            left: 700px;
+            top: 0;
+            font-size: 15px;
+            font-weight: 700;
+            width: 100px;
+            height: 100%;
+            color: #000;
+            text-align: center;
+            line-height: 50px;
+        }
+        .right{
+            position: absolute;
+            left: 830px;
+            top: 0;
+            font-size: 16px;
+            font-weight: 700;
+            width: 100px;
+            height: 100%;
+            color: #fff;
+            background-color: red;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
         }
     }
 }

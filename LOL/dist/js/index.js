@@ -104,6 +104,57 @@ define(["jquery"],function($){
 			})
 		}
 
+		// 账号登录
+		function login(){
+			console.log('login');
+			$('#user_log').on('click',function(){
+				$('#login').css('display','block');
+				$('body').css('opacity','0.5');
+			})
+
+			$('#login .close').on('click',function(){
+				$('#login').css('display','none');
+				$('body').css('opacity','1');
+			})
+
+			// 判断
+
+			$('.userName').on('blur',function(){
+				var userNameV = $('.userName').val();
+
+				if(userNameV.length < 5 || userNameV.length > 15 ){
+					strName = `! 请输入正确的账号`;
+					$('.nameSpan').html(strName);
+					$('.nameSpan').css('display','block');
+				}else{
+					$('.nameSpan').css('display','none');
+				}
+
+			})
+
+			$('.userPwd').on('blur',function(){
+				var userPwdV = $('.userPwd').val();
+
+				if(userPwdV.length < 5 || userPwdV .length > 15 ){
+					strName = `! 请输入正确的密码`;
+					$('.pwdSpan').html(strName);
+					$('.pwdSpan').css('display','block');
+				}else{
+					$('.pwdSpan').css('display','none');
+				}
+
+			})
+
+
+			$('#log_btn').on('click',function(){
+				$('#login').css('display','none');
+				$('#user_log p').html('你好， 召唤师');
+				$('#user_log i').css('display','none');
+				$('body').css('opacity','1');
+			})
+
+		}
+
 	return{
 		newsTab:newsTab,
 		arrowsMove:arrowsMove,
@@ -113,6 +164,7 @@ define(["jquery"],function($){
 		gameNavMove:gameNavMove,
 		gameArrowsMove:gameArrowsMove,
 		shopBannerTab:shopBannerTab,
+		login:login,
 	}
 
 });

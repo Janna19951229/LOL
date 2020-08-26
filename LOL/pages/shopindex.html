@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="../css/shopmin.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/shopindexmin.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
 		<script src = '../js/require.js' defer async = 'true' data-main = '../js/shopmain'></script>
 	</head>
@@ -18,9 +18,9 @@
 					<div class="lor_top_right clearfix">
 						<!-- 登录状态 -->
 						<div class="login_bar">
-							<a href="" class="loginqq clearfix">
+							<span href="" class="loginqq clearfix">
 								<span class="mtxt">你好，请登录</span>
-							</a>
+							</span>
 							<!-- 购物车 -->
 							<a href="http://localhost:8888/pages/shopCar.html?" class="menu-cart clearfix">
 								<i></i>
@@ -167,19 +167,19 @@
 				<!-- 商品展示 -->
 				<ul class="index-goods-list">
 					<li>
-						<a href=""><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202006/20200622093421_419399.jpg" alt=""></a>
+						<a href="http://localhost:8888/pages/details.html?33"><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202006/20200622093421_419399.jpg" alt=""></a>
 						<p>英雄联盟 符文之地的故事 设定集</p>
 					</li>
 					<li>
-						<a href=""><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202008/20200812121158_717575.jpg" alt=""></a>
+						<a href="http://localhost:8888/pages/details.html?32"><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202008/20200812121158_717575.jpg" alt=""></a>
 						<p>甜蜜七夕 周边超值福袋</p>
 					</li>
 					<li>
-						<a href=""><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202008/20200818092357_611833.jpg" alt=""></a>
+						<a href="http://localhost:8888/pages/details.html?0"><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202008/20200818092357_611833.jpg" alt=""></a>
 						<p>九周年限定 武神贾克斯 降临</p>
 					</li>
 					<li>
-						<a href=""><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202007/20200724212148_376507.jpg" alt=""></a>
+						<a href="http://localhost:8888/pages/details.html?1"><img src="https://game.gtimg.cn/images/daojushop/zb/ad/202007/20200724212148_376507.jpg" alt=""></a>
 						<p>灵魂莲花 盛放上新</p>
 					</li>
 				</ul>
@@ -257,6 +257,21 @@
 					</div>
 				</div>
 			</div>
+
+
+			<!-- 登录 -->
+
+		<div id="login">
+			<h3>账号密码登录</h3>
+			<input type="text" placeholder="支持QQ号/邮箱/手机号登录" class="userName">
+			<span class="nameSpan">111</span>
+			<input type="password" placeholder="密码" class="userPwd">
+			<span class="pwdSpan">222</span>
+			<button id="log_btn">登录</button>
+			<span class="close">x</span>
+			<div class="null"></div>		
+			<span class="reg"><a href="http://localhost:8888/pages/register.html">忘记密码？/ 注册新账号</a></span>
+		</div>
 		</div>
 
 	</body>
